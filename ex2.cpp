@@ -1,4 +1,5 @@
-﻿#include <iostream>
+﻿//Vẽ hình chữ nhật
+#include <iostream>
 using namespace std;
 
 int main ()
