@@ -14,3 +14,5 @@ int main ()
   };
   return 0;
 }
+
+//Ko sử dụng cấu trúc câu lệnh nào ngoài cin, cout và các phép tính
