@@ -1,4 +1,5 @@
-﻿#include <iostream>
+//"Tà tữa"
+#include <iostream>
 using namespace std;
 
 int main ()
