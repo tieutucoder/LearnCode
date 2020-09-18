@@ -1,4 +1,5 @@
-﻿#include <iostream>
+//Hình vuông
+#include <iostream>
 using namespace std;
 
 int main ()
