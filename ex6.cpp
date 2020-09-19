@@ -1,25 +1,24 @@
-﻿//Tính toán
+/*###Begin banned keyword - each of the following line if appear in code will raise error. regex supported
+define
+include
+using
+if
+switch
+while
+for
+break
+###End banned keyword*/
 #include <iostream>
+
 using namespace std;
 
-int main ()
-{
-  int so1,so2,tong,hieu,tich,thuong;
-  cin >> so1 >> so2;
-  tong = so1+so2;
-  hieu = so1-so2;
-  tich = so1*so2;
-  if (so2 == 0) {
-    if (so1 > 0) {
-        cout << tong << "\n" << hieu << "\n" << tich << "\n" << "pos inf";
-    } else if (so1 < 0) {
-        cout << tong << "\n" << hieu << "\n" << tich << "\n" << "neg inf";
-    } else {
-      cout << tong << "\n" << hieu << "\n" << tich << "\n" << "null";
-    }
-  } else {
-    thuong = so1/so2;
-    cout << tong << "\n" << hieu << "\n" << tich << "\n" << thuong;
-  }
-  return 0;
+//###INSERT CODE HERE -
+
+int main () {
+  int s1,s2;
+  cin >> s1 >> s2;
+  cout << s1+s2 << endl;
+  cout << s1-s2 << endl;
+  cout << s1*s2 << endl;
+  s2==0 ? (s1==0 ? cout << "null" : (s1<0 ? cout << "neg inf" : cout << "pos inf")) : (cout << s1/s2);
 }
