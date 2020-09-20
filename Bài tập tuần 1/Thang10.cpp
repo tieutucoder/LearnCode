@@ -8,3 +8,5 @@ int main() {
   cout << 10-x;
   return 0;
 }
+
+// code này chưa vét hết TH ha
