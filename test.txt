@@ -1,7 +1,0 @@
-day la git hub
-test pull
-<<<<<<< HEAD
-hahahaha
-=======
-co y de conflict
->>>>>>> adc030cae8002e16a75a50b8289c9495051a5960
