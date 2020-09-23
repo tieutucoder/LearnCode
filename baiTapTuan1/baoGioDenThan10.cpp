@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-    int month;
-    cin >> month;
-    (month <= 10)?(cout <<(10-month)):((month == 11)?(cout <<month):(cout <<month-2));
+    int a;
+    cin >> a;
+    cout << (22-a)%12;
     return 0;
 }
 
