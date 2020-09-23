@@ -1,12 +1,11 @@
-﻿#include <iostream>
-
+#include <iostream>
 using namespace std;
 
-int main() {
+int main ()
+{
   int x;
   cin >> x;
-  cout << 10-x;
+  cout <<  (22 - x)%12;
   return 0;
 }
-
-// code này chưa vét hết TH ha
+// E xin nhẹ công thức nha a :( 
