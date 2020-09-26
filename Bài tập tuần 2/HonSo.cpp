@@ -1,4 +1,4 @@
-﻿/*###Begin banned keyword - each of the following line if appear in code will raise error. regex supported
+/*###Begin banned keyword - each of the following line if appear in code will raise error. regex supported
 define
 include
 class
@@ -29,7 +29,7 @@ int main()
         }
       };
     }
-    cout << int(a);            
+    cout << (int)a;            
     for (int j=0; j<n; j++) {
       if ((double)j/n == b) {
         cout << " " << j << "/" << n;
