@@ -17,7 +17,11 @@ int main()
     else {
         if ((year%100==0 && year%400!=0)){
             cout << 4;
+<<<<<<< HEAD
         } else if (year%4==0||year==0){
+=======
+        } else if (year%4==0||year==0{
+>>>>>>> 0fe5c2659b3366c3401912a3dd5dc5f0b483bc54
             cout << 0;
         }
     }
