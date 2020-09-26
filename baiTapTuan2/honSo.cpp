@@ -12,7 +12,7 @@ int main()
     double a;
     int n;
     std::cin >> a >> n;
-
+	/*
     std::cout << (int(a*n)/n) <<" ";
 
     if ((float(a*n)-int(a*n)) < 0.5) {
@@ -29,4 +29,5 @@ int main()
     //a = int(a*n)/float(n);
     //std::cout << a;
     //std::cout << (int(a*n)/float(n)-int(a*n)/n)*n+1 << "/" <<n;
+	*/
 }
