@@ -13,9 +13,13 @@ int main()
     }
     else if (year % 4 == 3 || year == 3) {
         cout << 1;
-    }s
+    }
     else {
-        cout << 0;
+        if ((year%100==0 && year%400!=0)||year==0){
+            cout << 4;
+        } else if (year%4==0){
+            cout << 0;
+        }
     }
     return 0;
 }
