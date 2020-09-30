@@ -9,6 +9,7 @@ class
 
 int main()
 {
+    /*
     double a;
     int n;
     std::cin >> a >> n;
@@ -21,7 +22,10 @@ int main()
         }
     } else {
         std::cout << (int(a*n)/float(n)-int(a*n)/n)*n+1 << "/" <<n;
-    }
+    }*/
+
+
+
     //std::cout << int((float((int(a*n)+1)/n)-int(a*n)/n)*6)<<"/" <<n;
     //std::cout << float(a*n);
     //a = int(a*n)/float(n);
