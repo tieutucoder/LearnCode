@@ -9,19 +9,19 @@ int main()
     Average = (Math + Physics + Chemistry)*100 / 3;
     cout << "DTB = " << Average/100 << "." <<Average%100 <<endl;
     if(Average >= 900) {
-        cout << "Loai:XUAT SAC";
+        cout << "Loai: XUAT SAC";
     } else if(Average>=800){
-        cout << "Loai:GIOI";
+        cout << "Loai: GIOI";
     } else if(Average>=700){
-        cout << "Loai:KHA";
+        cout << "Loai: KHA";
     } else if(Average>=600){
-        cout << "Loai:TB KHA";
+        cout << "Loai: TB KHA";
     } else if(Average>=500){
-        cout << "Loai:TB";
+        cout << "Loai: TB";
     } else if(Average>=400){
-        cout << "Loai:YEU";
+        cout << "Loai: YEU";
     } else {
-        cout << "Loai:KEM";
+        cout << "Loai: KEM";
     }
     return 0;
 }
