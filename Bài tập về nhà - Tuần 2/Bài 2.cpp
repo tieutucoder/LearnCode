@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 	int nam, sodu; cin >> nam;
-	char CHI[][5] = { "TY'", "SUU", "DAN", "MAO", "THIN", "TY.", "NGO", "MUI", "THAN", "DAU", "TUAT", "HOI" };
+	char CHI[][5] = { "TY'", "SUU", "DAN", "MEO", "THIN", "TY.", "NGO", "MUI", "THAN", "DAU", "TUAT", "HOI" };
 	if (nam >= 0) cout << CHI[(nam + 8) % 12];
 	else {
 		nam = abs(nam);
@@ -13,18 +13,18 @@ int main() {
 		(abs(nam) % 100 > 12) ? nam = (abs(nam) % 100) % 12 : nam = abs(nam);
 		switch (sodu) {
 		case 0: {
-			char CHI[][5] = { "DAU", "THAN", "MUI", "NGO", "TY.", "THIN", "MAO", "DAN", "SUU", "TY'", "HOI", "TUAT" };
+			char CHI[][5] = { "DAU", "THAN", "MUI", "NGO", "TY.", "THIN", "MEO", "DAN", "SUU", "TY'", "HOI", "TUAT" };
 			cout << CHI[abs(nam) % 100];
 			break;
 		}
 		case 1: {
-			char CHI[][5] = { "TY.", "THIN", "MAO", "DAN", "SUU", "TY'", "HOI", "TUAT", "DAU", "THAN", "MUI", "NGO" };
+			char CHI[][5] = { "TY.", "THIN", "MEO", "DAN", "SUU", "TY'", "HOI", "TUAT", "DAU", "THAN", "MUI", "NGO" };
 			cout << CHI[abs(nam) % 100];
 			break;
 		}
 		case 2:
 		{
-			char CHI[][5] = { "SUU", "TY", "HOI", "TUAT", "DAU", "THAN", "MUI", "NGO", "TY.", "THIN", "MAO", "DAN" };
+			char CHI[][5] = { "SUU", "TY'", "HOI", "TUAT", "DAU", "THAN", "MUI", "NGO", "TY.", "THIN", "MEO", "DAN" };
 			cout << CHI[abs(nam) % 100];
 			break;
 		}
