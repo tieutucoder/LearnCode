@@ -9,11 +9,11 @@ int main()
     y=a+b+c+d;
     z=e+f+g+h;
     if(y>z)
-        cout << "NAM";
+        cout << "Nam";
     else if(y==z)
         cout << "Tie";
     else
-        cout << "NGA";
+        cout << "Nga";
 
     return 0;
 }
