@@ -6,8 +6,7 @@ int main()
 {
     int n,b=0;
     cin>>n;
-    for(int i=0;i<n;i++){  b=b*10+1;
-    cout<<b<<endl;}
+    cout<<(22-n)%12;
 
 
 
