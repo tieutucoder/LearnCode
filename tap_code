@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int do_dai;
+	cout<<"Nhap do dai=";
+	cin>>do_dai;
+	int Dien_Tich=do_dai*do_dai; 
+	cout <<"Dien Tich HV="<<Dien_Tich;
+	cout <<endl;
+	int chu_vi=do_dai*4;
+	cout <<"Chu vi HV="<<chu_vi;
+}
